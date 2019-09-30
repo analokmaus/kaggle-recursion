@@ -1,0 +1,23 @@
+# General
+nohup.out
+.DS_Store
+
+# Python-related
+.ipynb_checkpoints/
+__pycache__/
+
+# Package specific
+catboost_info/
+
+# Project
+checkpoints/
+results/
+logs/
+batch_train.sh
+batch_train.sh.o*
+qsub/
+legacy/
+*.sh
+*.sh.o*
+logboard*
+models/resnet_cbam.py
